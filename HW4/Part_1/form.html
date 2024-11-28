@@ -1,0 +1,47 @@
+<!--
+    Name: Saeed Gudal
+    Date: 11/27/24
+    Class: GUI 1
+    Email: Saeed_Gudal@student.uml.edu
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HW4</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    </head>
+    
+<body>
+    <div class="center-wrapper">
+        <div class="input-container">
+            <h3>Multiplication Table!</h3>
+            <form id="input-form">
+                <ul>
+                    <li>minX: <input type="text" name="input1"></li>
+                    <li>maxX: <input type="text" name="input2"></li>
+                    <li>minY: <input type="text" name="input3"></li>
+                    <li>maxY: <input type="text" name="input4"></li>
+                </ul>
+                <button type="button" class="btn btn-submit">Submit</button>
+            </form>
+            <div id="error-message" class="error-message"></div>
+        </div>
+
+        <div id="multiplication-table-container" class="table-container">
+            <div id="multiplication-table"></div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="myscript.js"></script>
+</body>
+</html>

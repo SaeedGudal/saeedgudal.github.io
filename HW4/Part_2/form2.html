@@ -1,0 +1,56 @@
+<!--
+    Name: Saeed Gudal
+    Date: 11/27/24
+    Class: GUI 1
+    Email: Saeed_Gudal@student.uml.edu
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Generator</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+
+    <div class="container">
+        <!-- Input Fields & Sliders -->
+        <form id="myform">
+            <label for="row1">Row Start:</label>
+            <input type="number" id="row1" name="row1" value="1">
+            <div id="row1-slider"></div>
+
+            <label for="row2">Row End:</label>
+            <input type="number" id="row2" name="row2" value="5">
+            <div id="row2-slider"></div>
+
+            <label for="col1">Column Start:</label>
+            <input type="number" id="col1" name="col1" value="1">
+            <div id="col1-slider"></div>
+
+            <label for="col2">Column End:</label>
+            <input type="number" id="col2" name="col2" value="5">
+            <div id="col2-slider"></div>
+
+            <button type="button" id="submit-button">Generate Table</button>
+        </form>
+
+        <div id="tabs">
+            <ul></ul>
+        </div>
+
+        <div id="table-container"></div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="myscript2.js"></script>
+</body>
+</html>

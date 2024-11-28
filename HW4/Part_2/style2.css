@@ -1,0 +1,74 @@
+/*
+    Name: Saeed Gudal
+    Date: 11/27/24
+    Class: GUI 1
+    Email: Saeed_Gudal@student.uml.edu
+*/
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+input {
+    margin-right: 10px;
+    width: 60px;
+}
+
+/* Sliders */
+#row1-slider, #row2-slider, #col1-slider, #col2-slider {
+    width: 200px;
+    margin-top: 5px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+#tabs {
+    margin-top: 20px;
+}
+
+#tabs ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+#tabs li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-nav {
+    border: none;
+}
+
+#submit-button {
+    margin-top: 10px;
+}
